@@ -1,0 +1,52 @@
+.contenedor{
+    /*convertimos a todos los elementos flexibles
+    a todos los hijos*/
+    display:flex;
+
+    /*centra dentro del padre*/
+    justify-content: center;
+    /*separa los elementos dentro del contenedor*/
+    justify-content: space-around;
+    /*tomen la misma distancia o espaciado entre ellos dentro del contenedor flexible, quedando el primer y último elemento pegados con los bordes del contenedor en el eje principal.
+    */
+    justify-content:space-between;
+    /*todos los elementos al final*/
+    justify-content: flex-end;
+
+    /*alinear contenido verticalmente*/
+   
+    align-items: baseline;
+    align-items: flex-end;
+    align-items: center;
+    justify-content: flex-start;
+    /*si el contenido se sale de la linea, los elementos siguen abajo*/
+    flex-wrap: wrap;
+    /*por defecto no da un salto de linea*/
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+img{
+    width: 100px;
+
+    width: 600px;
+}
+
+.header_ul{
+    background-color: darkorchid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.header_enlace{
+   text-decoration: none;
+   font-size: 150%;
+  
+   background-color: deeppink;
+
+
+}
+

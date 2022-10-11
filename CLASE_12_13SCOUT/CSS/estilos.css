@@ -1,0 +1,34 @@
+@import url(_variables.scss);
+/* el archivo que empieza con _(no se compila) Variables */
+/* line 4, ../CLASE_12_13SCOUT/SCSS/estilos.scss */
+#header {
+  position: fixed;
+}
+
+/* line 6, ../CLASE_12_13SCOUT/SCSS/estilos.scss */
+#header p {
+  font-size: 30px;
+}
+
+/* line 8, ../CLASE_12_13SCOUT/SCSS/estilos.scss */
+#header p span {
+  color: #F44336;
+}
+
+/* line 12, ../CLASE_12_13SCOUT/SCSS/estilos.scss */
+#header .fontEspecial {
+  font-weight: bold;
+}
+
+/* line 14, ../CLASE_12_13SCOUT/SCSS/estilos.scss */
+#header .fontEspecial.blue {
+  color: blue;
+}
+
+/* line 17, ../CLASE_12_13SCOUT/SCSS/estilos.scss */
+#header .fontEspecial:hover {
+  color: crimson;
+  font-size: 50px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

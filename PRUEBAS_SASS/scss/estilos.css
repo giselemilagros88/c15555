@@ -1,0 +1,67 @@
+body {
+  background-color: #e5faf3;
+}
+
+.colores {
+  color: white;
+}
+
+.fuente {
+  font-size: 10px;
+}
+
+div {
+  width: 100%;
+}
+
+.header {
+  background-color: red;
+}
+
+.header .nav {
+  width: 100%;
+}
+
+.header .nav a {
+  text-decoration: none;
+}
+
+.header .nav a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.header .nav a:active {
+  font-weight: bold;
+}
+
+/* comentar todo lo que tenia de header y sus hijos*/
+.cajadestacada {
+  background-color: #6200ff;
+}
+
+.cajadestacada header {
+  background-color: black;
+  color: #fff;
+}
+
+.cajadestacada header a {
+  color: #ffe866;
+}
+
+.section {
+  width: 80%;
+}
+
+.section .section__parrafo--red {
+  font-size: 20px;
+  padding: 10px;
+  background-color: red;
+}
+
+.section .section__parrafo--black {
+  font-size: 20px;
+  padding: 10px;
+  background-color: black;
+}
+/*# sourceMappingURL=estilos.css.map */

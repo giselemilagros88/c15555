@@ -1,0 +1,48 @@
+/*la $i es una variable local del for que toma el valor de cada vuelta que se repite
+en este caso dice que empieza en 1 y termina en 13 vueltas, cuando $i vale 13 se corta el bucle*/
+@for $i from 1 through $total-columnas{
+    /*lo que estoy haciendo aca es formar el nombre de la clase con la variable
+    en cada vuelta, la variable va a valer de 1 a 12
+    entonces me formara las clases 
+    .col-1{}
+    .col-2{}
+    .col-3{}
+    ....{}
+    .col-12{}
+    para que sass sepa que es una variable
+    se usa como se ve en la linea siguiente */
+   
+    .col-#{$i}{
+        /* aca no necesito poner la variable entre las llaves */
+        width: ($ancho / $total-columnas) * $i ;
+    }
+}
+
+// @for $i from 1 to 13 (el to no incluye el ultimo valor)
+
+/*recuerden que la variable $size*/
+
+
+@each $size in 10px, 12px, 14px , 20px{
+
+    .font-#{$size}{
+        font-size: $size;
+
+    }
+
+}
+
+/*con la r accedo al nombre de la clave
+con $color accedo al valor de la clave*/
+@each $r, $color in $redes{
+    .red-#{$r}{
+        background-color: $color;
+       
+    }
+}
+
+@each $f,$w in $fuentes{
+    .font-#{$f}{
+        font-weight: $w;
+    }
+}

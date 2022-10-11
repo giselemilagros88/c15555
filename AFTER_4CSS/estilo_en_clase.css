@@ -1,0 +1,47 @@
+/*section{
+    background-color: crimson;
+}*/
+
+*{
+   color:white; 
+   margin:0;
+   padding: 0;
+}
+
+#header{
+    background-color: darksalmon;
+}
+
+.nav_enlace{
+    font-family: 'The Nautigal', cursive;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.centrar {
+    text-align: center;
+ }
+
+ .negrita{
+     font-weight: bold;
+     line-height: 1.6;
+ }
+
+ body{
+     background-image: url("https://picsum.photos/1200");
+     height: 600px;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ h1{
+     color:white;
+ }
+
+ p{
+     color:white;
+ }
+
+ 

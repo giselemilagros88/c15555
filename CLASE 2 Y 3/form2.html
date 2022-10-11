@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario en clase</title>
+</head>
+<body>
+    <section>
+        <form action="">
+            <div>
+                <label for="mail">ingrese Mail</label>
+                <input id ="mail" type="text" placeholder="Ingrese su Correo ejemplo@gmail.com">
+            </div>
+           
+            <div>
+                <label for="pass">Ingrese contraseña</label>
+                <input id="pass"  type="password">
+            </div>
+            <div>
+
+                <textarea name="contenido" id="contenido" cols="10" rows="20" placeholder="Ingrese un comentario..."></textarea>
+            </div>
+
+            <label for="">indique sexo</label>
+            <div> Hombre
+                <input type="radio" name="sexo" value="hombre" />
+            </div>
+            
+            <div> Mujer
+                <input type="radio" name="sexo" value="mujer" />
+
+            </div>
+           
+        
+            <div>  <p> Acepta términos y condiciones</p> </div>
+            <input type="checkbox" name="acepta" value="1" />
+
+
+            <fieldset>
+                <legend>Talle de remera</legend>
+                <div>
+                    <select name="talles">
+                        <option value="L"> Large </option>
+                        <option value="M"> Medium </option>
+                        <option value="S"> Small </option>
+                    </select>
+                </div>
+              </fieldset>
+           
+           
+        
+
+           
+            <div>
+                <input type="submit" value="ENVIAR">
+                <input type="reset" value="LIMPIAR">
+
+
+            </div>
+         
+
+
+
+
+
+
+
+        </form>
+    </section>
+</body>
+</html>

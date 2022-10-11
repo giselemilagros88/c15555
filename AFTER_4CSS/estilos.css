@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin:0;
+    /*font-family: 'Roboto', sans-serif;*/
+}
+
+.nav{
+  background-color: rgb(241, 245, 20);
+}
+
+.nav ul{
+    list-style-type: none;
+}
+
+.nav_img_logo{
+    width: 100px;
+}
+
+.nav_enlace{
+    text-decoration: none;
+    color:black;
+    font-size: 120%; /*120% es 20% mas grande de su tamaño original*/
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.section_principal_img{
+    width: 800px;
+}
+
+.section_principal_parrafo{
+    background-color: rgb(145, 86, 200);
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.negrita{
+    font-weight: bold;
+
+}
+
+.centrar {
+    text-align: center;
+ }
+ 
+ .interlineado {
+    line-height: 1.6;
+ }
+ 
+
+ body{
+
+  background-image: url("https://picsum.photos/1200");
+  height: 600px;
+ 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+ }

@@ -1,0 +1,33 @@
+$ancho :100%;
+$borde-principal: 5px solid black;
+$bg-color-green:green;
+$total-columnas : 12;
+$tamaño-fuente: 12px;
+
+
+
+/*maps*/
+$redes:(
+    facebook : blue,
+    instagram : pink,
+    telegram : rgb(28, 0, 128),
+    tiktok:red
+
+);
+
+$fuentes:(
+    thin:100,
+    light:300,
+    regular:400,
+    medium:500,
+    bold:700,
+    black:900
+);
+
+$sizes:(
+    catorce: 14px,
+    16 : 16px,
+    20 :20px,
+    10 : 10px
+);
+

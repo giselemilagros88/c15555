@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "estilos.css",
+	"sources": [
+		"../SCSS/estilos.scss",
+		"../SCSS/_variables.scss"
+	],
+	"sourcesContent": [
+		"@import url(_variables.scss);\r\n@import \"variables\";\r\n\r\n#header{\r\n    position:fixed;\r\n    p{\r\n        font-size:30px;\r\n        span{\r\n            color:$cool-red;\r\n        }\r\n    }\r\n    .fontEspecial{\r\n        font-weight: bold;\r\n        &.blue{\r\n            color:blue;\r\n        }\r\n        &:hover{\r\n            color:crimson;\r\n           font-size: $tamano-font;\r\n        }\r\n    }\r\n}",
+		"/* el archivo que empieza con _(no se compila) Variables */\r\n$title-font:'Open Sans', sans-serif;\r\n$tamano-font : 50px;\r\n$cool-red: #F44336;\r\n$box-shadow-bottom-only: 0 2px 1px 0 rgba(0, 0, 0, 0.2);"
+	],
+	"names": [],
+	"mappings": "AAAA,OAAO,CAAC,oBAAI;ACAZ,2DAA2D;;ADG3D,AAAA,OAAO,CAAA;EACH,QAAQ,EAAC,KAAK;CAiBjB;;;AAlBD,AAEI,OAFG,CAEH,CAAC,CAAA;EACG,SAAS,EAAC,IAAI;CAIjB;;;AAPL,AAIQ,OAJD,CAEH,CAAC,CAEG,IAAI,CAAA;EACA,KAAK,ECLN,OAAO;CDMT;;;AANT,AAQI,OARG,CAQH,aAAa,CAAA;EACT,WAAW,EAAE,IAAI;CAQpB;;;AAjBL,AAUQ,OAVD,CAQH,aAAa,AAER,KAAK,CAAA;EACF,KAAK,EAAC,IAAI;CACb;;;AAZT,AAaQ,OAbD,CAQH,aAAa,AAKR,MAAM,CAAA;EACH,KAAK,EAAC,OAAO;EACd,SAAS,EChBL,IAAI;CDiBV"
+}

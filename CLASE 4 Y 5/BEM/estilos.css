@@ -1,0 +1,24 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.seccion_principal_card{
+    background-color: grey;
+    
+}
+
+.seccion_principal_card_h2{
+    font-size: 3rem;
+}
+
+.seccion_principal_card_img{
+    width: 300px;
+}
+
+.seccion_principal_card_p{
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.6;
+   
+}
